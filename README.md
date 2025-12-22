@@ -3,7 +3,7 @@
 Este projeto foi desenvolvido com o objetivo principal de **testar meus conhecimentos e colocar em prática** os conceitos de Front-end que venho estudando. É o resultado da transição entre a teoria e a aplicação real de lógica de programação e design. 
 
 
-<a target="_blank" href="https://lubisca.github.io/imc-calculator/"><img src="https://raw.githubusercontent.com/lubisca/retro-badges/main/assets/ACCESE-ONLINE-button.png" height="28" alt="Acesse Online"></a>
+<a href="https://lubisca.github.io/imc-calculator/" target="_blank"><img src="https://raw.githubusercontent.com/lubisca/retro-badges/main/assets/ACCESE-ONLINE-button.png" height="28" alt="Acesse Online"></a>
 ## Por que este projeto?
 Para consolidar meu aprendizado, decidi criar uma ferramenta funcional que me desafiasse em três frentes:
 
