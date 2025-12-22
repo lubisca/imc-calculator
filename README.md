@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido com o objetivo principal de **testar meus conhecimentos e colocar em prática** os conceitos de Front-end que venho estudando. É o resultado da transição entre a teoria e a aplicação real de lógica de programação e design. 
 
-  <a href="">
+  <a href="https://lubisca.github.io/imc-calculator/">
     <img src="https://img.shields.io/badge/Acesse_o_Sistema-VER_ONLINE-00ff41?style=for-the-badge&logo=github&logoColor=black" alt="Ver Online">
   </a>
 
