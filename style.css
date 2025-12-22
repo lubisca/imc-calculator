@@ -1,0 +1,172 @@
+
+@font-face {
+    font-family: Brice-regularSemiExpanded;
+    src: url(fontes/Brice-RegularSemiExpanded.ttf);
+}
+@font-face {
+    font-family: VT323-Regular;
+    src: url(fontes/VT323-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: beige;
+}
+
+.titulo {
+    font-size: 1.3rem;
+    font-family: Brice-regularSemiExpanded;
+    padding: 2rem;
+    text-align: center;
+    border: solid;
+    margin: 0.2rem;
+    /* border-radius: 15px; */
+
+}
+
+.corpo {
+    border: solid;
+    margin: 0.2rem;
+    /* border-radius: 15px; */
+}
+
+.input {
+    text-align: center;
+    margin: 1rem;
+}
+
+input[type='text'], input[type='number']{
+    padding: 1rem;
+    width: 55%;
+    border: solid;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: VT323-Regular;
+}
+input::placeholder{
+    text-align: left;
+    outline: none;
+}
+
+.botaodiv {
+    text-align: center;
+}
+
+.botao {
+    margin: 0.6rem;
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    border: solid;
+    border-radius: 8px;
+    font-family: VT323-Regular;
+    cursor: pointer;
+    background-color: #00FFFF;
+    box-shadow: 0px 3px 0px;
+    transition: all 0.1s;
+}
+
+.botao.ativo{
+    box-shadow: 0px 2px 0px;
+    position: relative;
+    top: 2px;
+}
+
+.js-resultado {
+    margin: 15px;
+    padding: 1rem;
+    text-align: center;
+    background-color: #FF3300;
+    border: solid;
+    border-radius: 8px;
+    font-family: VT323-Regular;
+    display: none;
+}
+
+.js-resultado.ativo {
+    animation: slide 0.3s;
+    display: block;
+    box-shadow: 0px 3px 0px ;
+}
+
+.titulofaq{
+    font-size: 2rem;
+    font-family: Brice-regularSemiExpanded;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.js-accordion dt{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    cursor: pointer;
+    font-family: VT323-Regular;
+}
+
+.js-accordion dt::after{
+    content: ' ↲';
+}
+
+.js-accordion dt.ativo::after{
+    content: ' ↰';
+}
+
+.js-accordion dd{
+    text-align: center;
+    display: none;
+    font-family: VT323-Regular;
+    font-size: 1.5rem;
+
+}
+
+.js-accordion dd.ativo{
+    display: block;
+    animation: slide 0.3s;
+}
+
+.js-accordion dd:last-child{
+    margin: 1rem;
+}
+
+@keyframes slide {
+    from{
+        opacity: 0;
+        max-height: 0;
+    }
+    to{
+        opacity: 1;
+        max-height: 200px;
+    }
+}
+
+
+.footer a{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 0.3rem;
+    font-family: VT323-Regular;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 700px) {
+  .footer a {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+  .titulo {
+    padding: 1rem;
+  }
+}
