@@ -13,6 +13,7 @@ Para consolidar meu aprendizado, decidi criar uma ferramenta funcional que me de
 
 ## Desafios Superados
 
+* **Refatoração para Modules:** Organizar o código em módulos (`import/export`) para manter o escopo limpo e facilitar a manutenção futura.
 * **Manipulação Dinâmica (Feedback de Clique):** Utilizei a função `setTimeout` para adicionar e remover a classe `ativo` no botão de calcular. Isso cria uma resposta visual de "pressionado" que melhora a experiência do usuário.
 * **Componente de FAQ (Accordion List):** Implementei uma lógica de acordeão utilizando `nextElementSibling` e `classList.toggle`. O desafio foi mapear os elementos da lista (`dt`) e garantir que o conteúdo relacionado fosse exibido/escondido corretamente ao clicar.
 * **Encapsulamento de Funções:** O código foi organizado em funções específicas (`StartIMC` e `Iniaccordion`) para manter o escopo protegido e o script organizado.
