@@ -147,7 +147,8 @@ input::placeholder{
 
 
 .footer a{
-    position: fixed;
+    position: static;
+    display: block;
     bottom: 0;
     left: 0;
     width: 100%;
